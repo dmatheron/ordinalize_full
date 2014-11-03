@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "ordinalize_full/integer"
 
 describe OrdinalizeFull do

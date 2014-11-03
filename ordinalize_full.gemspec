@@ -1,10 +1,10 @@
-# coding: utf-8
+# encoding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "ordinalize_full"
-  spec.version       = "1.2.1"
+  spec.version       = "1.2.2"
   spec.authors       = ["Cédric Félizard"]
   spec.email         = ["cedric@felizard.fr"]
   spec.summary       = %q{Turns a number into an ordinal string such as first, second, third or 1st, 2nd, 3rd.}
